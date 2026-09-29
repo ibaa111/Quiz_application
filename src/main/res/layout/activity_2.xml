@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8EAF6"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvSalut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salut !"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSalut"
+            android:text="Choisis une matière" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnMaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Maths" />
+
+    <Button
+        android:id="@+id/btnFrancais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Français" />
+
+    <Button
+        android:id="@+id/btnSciences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sciences" />
+
+</LinearLayout>
